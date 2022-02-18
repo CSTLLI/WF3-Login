@@ -28,27 +28,29 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
-	<header class="p-3 bg-dark text-white">
-		<div class="container">
-			<div class="d-flex justify-content-end gap-3 align-items-center">
-				<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-					<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-				</a>
-
-				<div class="text-end">
-					<a href="index.php" class="btn btn-warning">Sign-out</a>
-				</div>
-
-				<a href="#" class="d-block link-dark text-decoration-none" aria-expanded="false">
-					<img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png" alt="Avatar" width="32" height="32" class="rounded-circle">
-				</a>
-			</div>
-		</div>
-  </header>
-
 	<body>
-		<div class="d-flex d-flex flex-column gap-5 text-center justify-content-center align-items-center vh-100">
-			Bienvenue User ! :)
-		</div>
+		<header class="p-3 bg-dark text-white">
+			<div class="container">
+				<div class="d-flex justify-content-end gap-3 align-items-center">
+					<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+						<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+					</a>
+
+					<div class="text-end">
+						<a href="index.php" class="btn btn-warning">Sign-out</a>
+					</div>
+
+					<a href="#" class="d-block link-dark text-decoration-none" aria-expanded="false">
+						<img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png" alt="Avatar" width="32" height="32" class="rounded-circle">
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="d-flex d-flex flex-column gap-5 text-center justify-content-center align-items-center vh-100">
+				Bienvenue User ! :)
+			</div>
+		</main>
 	</body>
 </html>
