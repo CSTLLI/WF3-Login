@@ -72,6 +72,7 @@
 	setlocale(LC_ALL, 'fr_FR.utf8','fra', 'French');
 
 	session_start();
+
 	// Couper l'affichage des erreurs lors de la première visite de la page
 	if (empty($_POST['mail']) && empty($_POST['pass1'])){
 		die();
