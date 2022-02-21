@@ -49,7 +49,7 @@
 
 		<main>
 			<div class="d-flex d-flex flex-column gap-5 text-center justify-content-center align-items-center vh-100">
-				Bienvenue User ! :)
+				Bienvenue <?php session_start(); echo ($_SESSION['nom']); ?>! :)
 			</div>
 		</main>
 	</body>
